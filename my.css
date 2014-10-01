@@ -1,0 +1,78 @@
+#headerpic {
+  margin: 0 auto;
+  width: 620px;
+  position: relative;
+}
+#headerpic img {
+  width: inherit;
+}
+body {
+  font-family: 'Nixie One', cursive;
+}
+#name {
+  position: absolute;
+  right: -3.8em;
+  font-size: 5em; 
+}
+.instagram {
+  background: url('ig-icon.png') no-repeat scroll 0px 0px transparent;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 1px;
+}
+.twitter {
+  background: url('tw-icon.png') no-repeat scroll 0px 0px transparent;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 1px;
+}
+.pinterest {
+  background: url('pn-icon.png') no-repeat scroll 0px 0px transparent;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 1px;
+}
+.facebook {
+  background: url('fb-icon.png') no-repeat scroll 0px 0px transparent;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 1px;
+}
+.links {
+  display: inline-block;
+  float: right;
+}
+.links a{
+  display: inline-block;
+  margin-left: 57px;
+  font-size: 18pt;
+  text-decoration: none;
+  color: black;
+}
+.moonphases {
+  margin: 50px auto 0;
+  display: block;
+  width: 563px;
+}
+#chikumlogo {
+  float: left;
+  width: 200px;
+  margin-right: 20px;
+}
+.chikumcontact {
+  width: 650px;
+  margin: 50px auto 20;
+
+}
+.centered {
+  text-align: center;
+}
+.mantra {
+  width: 700px;
+  margin: 30px auto 50px;
+  font-weight: bold;
+}
