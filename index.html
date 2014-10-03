@@ -23,15 +23,23 @@
       </div>
     </div>
   </div>
-  
+  <div id="instagrampics"></div>
 </body>
 
 <script type="text/javascript" src="instafeed.min.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'user',
-        userId: '16713968', 
-        clientId: 'cf75dd8ea470427f8b7d24cd297a6b7c'
+        userId: 16713968, 
+        clientId: 'cf75dd8ea470427f8b7d24cd297a6b7c',
+        accessToken: '16713968.cf75dd8.c213f5b369f04eb1b88c06de7794afec',
+        target: 'instagrampics',
+        resolution: 'low_resolution',
+        template: '<div class="instapic">\
+                    <a href="{{link}}">\
+                      <img src="{{image}}" />\
+                    </a>\
+                   </div>'
     });
     feed.run();
 </script>

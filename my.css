@@ -76,3 +76,11 @@ body {
   margin: 30px auto 50px;
   font-weight: bold;
 }
+#instagrampics {
+  margin: 70px auto 0;
+  width: 652px;
+}
+.instapic {
+  margin: 10px;
+  display: inline;
+}
